@@ -1,5 +1,5 @@
 # ofxLibcrypto
-Small openFrameworks addon to encrypt and decrypt strings using the AES-256 algorithm.
+Small openFrameworks addon for the encryption and decryption of texts using the AES-256 algorithm.
 
 The AES-256 support comes with OpenSSL's libcrypto library integrated into OpenFrameworks core. No additional library needed.
 
