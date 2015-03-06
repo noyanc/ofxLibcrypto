@@ -11,6 +11,6 @@ USAGE:
     std::string striv = "01234567890123456"; // put here your vector
     unsigned char *key = (unsigned char*)strkey.c_str();
     unsigned char *iv = (unsigned char*)striv.c_str();
-    aes.initialize(c1, c2);
+    aes.initialize(key, iv);
     std::string encrypted_text = aes.encrypt("This is a plain text!");
     std::string plain_text = aes.decrypt(encrypted_text);
